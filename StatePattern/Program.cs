@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace StatePattern
 {
+    /// <summary>
+    /// 狀態模式練習
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -29,7 +32,7 @@ namespace StatePattern
 
             work.Hour = 19;
             work.WriteProgress();
-            work.Hour = 22;
+            work.Hour = 20;
             work.WriteProgress();
 
             Console.ReadKey();
