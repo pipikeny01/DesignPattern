@@ -1,7 +1,6 @@
 ﻿using System;
-using AbstractFactory.Repos;
 
-namespace AbstractFactory
+namespace AbstractFactory.Repos
 {
     internal class AccessUserRepos
         : IUserRepos

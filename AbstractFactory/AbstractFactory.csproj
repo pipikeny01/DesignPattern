@@ -50,8 +50,8 @@
     <Compile Include="Factory\SqlServerFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AccessUserRepos.cs" />
     <Compile Include="Repos\AccessDepartRepos.cs" />
+    <Compile Include="Repos\AccessUserRepos.cs" />
     <Compile Include="Repos\IRepos.cs" />
     <Compile Include="Repos\SqlServerCompanyRepos.cs" />
     <Compile Include="Repos\SqlServerDepartRepos.cs" />
