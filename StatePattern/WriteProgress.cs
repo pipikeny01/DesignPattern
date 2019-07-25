@@ -132,7 +132,7 @@ namespace StatePattern
 
         public int Hour { get; set; }
 
-        public WorkState CurrentWorkState { get; set; }
+        public WorkState CurrentWorkState { get; private set; }
 
         public Work()
         {

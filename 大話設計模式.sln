@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject1", "NUnitT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{33D68F74-B0B6-48A2-AB90-516840839EBF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "抽象工廠", "抽象工廠", "{A02C1005-3877-46E1-B63E-754722DF395B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{01EECB23-89E2-4EF4-B39D-E205382F51EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{33D68F74-B0B6-48A2-AB90-516840839EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D68F74-B0B6-48A2-AB90-516840839EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D68F74-B0B6-48A2-AB90-516840839EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EECB23-89E2-4EF4-B39D-E205382F51EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EECB23-89E2-4EF4-B39D-E205382F51EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EECB23-89E2-4EF4-B39D-E205382F51EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EECB23-89E2-4EF4-B39D-E205382F51EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CC151989-DE9B-4E0F-8966-405531604010} = {6D6BE99D-EF7C-4CA9-A3CC-D4557297690F}
 		{33D68F74-B0B6-48A2-AB90-516840839EBF} = {CB83F59A-96E1-4D7F-A4FC-044A74CE8D71}
+		{01EECB23-89E2-4EF4-B39D-E205382F51EA} = {A02C1005-3877-46E1-B63E-754722DF395B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B21C6A5-7495-4D48-AF2C-B2E9510955C1}
